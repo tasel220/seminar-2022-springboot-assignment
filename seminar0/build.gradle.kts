@@ -33,6 +33,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.springframework.boot:spring-boot-devtools")
     implementation("org.springframework.boot:spring-boot-starter-web")
     runtimeOnly("com.h2database:h2")
 
